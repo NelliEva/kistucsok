@@ -21,8 +21,8 @@ import Horgolmanyaim from "../Horgolmanyaim";
         
           <Routes>
               <Route  exact path='/' element={<Home />} /> 
-              <Route  path='/rolam' element={<About />} />
-              <Route  path='/horgolmanyaim' element={<Horgolmanyaim />} />
+              <Route  path='rolam' element={<About />} />
+              <Route  path='horgolmanyaim' element={<Horgolmanyaim />} />
               {/* <Route path="*" element={<NotFound/>}/> */}
           </Routes>
       
