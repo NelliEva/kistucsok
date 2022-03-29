@@ -1,5 +1,5 @@
 import React from "react";
-import { MDBCard, MDBCardBody, MDBCardTitle, MDBCardText, MDBBtn, MDBContainer, MDBRow, MDBCol, MDBIcon } from 'mdb-react-ui-kit';
+import { MDBCard, MDBCardBody, MDBCardTitle, MDBCardText, MDBContainer, MDBRow, MDBCol } from 'mdb-react-ui-kit';
 import bea from '../../home/AboutSection/bea.png'
 
 
@@ -67,9 +67,9 @@ const AboutHeader = () => {
                 <MDBCol>
                     <MDBCard className="fs-6 lh-lg" style={{backgroundColor: "rgba(0, 0, 0, 0.1)"}}>
                         <MDBCardBody className="text-center" style={{fontFamily: 'Caveat Brush'}}>
-                            Ha szeretnél valamilyen csodás horgolmányt magadnak nézz körül a rendelhető termékeim között <a href="#" className="text-muted ms-2 me-2 text-decoration-underline">IDE </a> kattintva!<br/>
-                            Ha pedig van saját ötleted, amit szeretnél horgoltatni, akkor <a href="#" className="text-muted ms-2 me-2 text-decoration-underline">IDE </a> kattintva arra is van lehetőséged,<br/>
-                            Ha pedig szeretnél megtanulni horgolni, és magadnak készíteni, ilyen horgolt csodákat, akkor várlak szeretettel a horgoló tanfolyamom valamelyikére. A tanfolyamokról <a href="#" className="text-muted ms-2 me-2 text-decoration-underline">IDE </a>kattintva kapsz bővebb információt.
+                            Ha szeretnél valamilyen csodás horgolmányt magadnak nézz körül a rendelhető termékeim között <a href="/" className="text-muted ms-2 me-2 text-decoration-underline">IDE </a> kattintva!<br/>
+                            Ha pedig van saját ötleted, amit szeretnél horgoltatni, akkor <a href="/" className="text-muted ms-2 me-2 text-decoration-underline">IDE </a> kattintva arra is van lehetőséged,<br/>
+                            Ha pedig szeretnél megtanulni horgolni, és magadnak készíteni, ilyen horgolt csodákat, akkor várlak szeretettel a horgoló tanfolyamom valamelyikére. A tanfolyamokról <a href="/" className="text-muted ms-2 me-2 text-decoration-underline">IDE </a>kattintva kapsz bővebb információt.
                         </MDBCardBody>
                     </MDBCard>
                 </MDBCol>

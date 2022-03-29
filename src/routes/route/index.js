@@ -9,9 +9,7 @@ import Footer from "../../components/Footer";
 import SocialMedia from "../../components/SocialMedia";
 import About from "../About";
 import Horgolmanyaim from "../Horgolmanyaim";
-// import {
-//   BrowserRouter,
-// } from "react-router-dom";
+
 
 
 
@@ -20,14 +18,14 @@ import Horgolmanyaim from "../Horgolmanyaim";
         <>
         <Header/>
         <SocialMedia/>
-        {/* <BrowserRouter  > */}
+        
           <Routes>
               <Route  exact path='/' element={<Home />} /> 
-              <Route  path='/kistucsok/rolam' element={<About />} />
+              <Route  path='/rolam' element={<About />} />
               <Route  path='/horgolmanyaim' element={<Horgolmanyaim />} />
               {/* <Route path="*" element={<NotFound/>}/> */}
           </Routes>
-        {/* </BrowserRouter> */}
+      
        
         <Footer/>
     </>
