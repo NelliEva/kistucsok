@@ -20,7 +20,7 @@ import {
         <>
         <Header/>
         <SocialMedia/>
-        <BrowserRouter basename={process.env.PUBLIC_URL} >
+        <BrowserRouter  >
           <Routes>
               <Route  exact path='/kistucsok' element={<Home />} /> 
               <Route  path='/kistucsok/rolam' element={<About />} />
