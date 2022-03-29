@@ -1,4 +1,5 @@
-this iste for a small Hungarian crochet business, it is still under developement. The site is deployed on netlify:
+This site for a small Hungarian crochet business, it is still under developement. The site is deployed on netlify:
+
 https://6243093c6283a600087d84ca--sunny-chimera-dc1578.netlify.app/
 
 
