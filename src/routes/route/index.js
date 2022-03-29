@@ -22,7 +22,7 @@ import {
         <SocialMedia/>
         <BrowserRouter  >
           <Routes>
-              <Route  exact path='/kistucsok' element={<Home />} /> 
+              <Route  exact path='/' element={<Home />} /> 
               <Route  path='/kistucsok/rolam' element={<About />} />
               <Route  path='/horgolmanyaim' element={<Horgolmanyaim />} />
               {/* <Route path="*" element={<NotFound/>}/> */}
