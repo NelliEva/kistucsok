@@ -35,7 +35,7 @@ const Header = () => {
                 <MDBCollapse navbar show={showNav}>
                     <MDBNavbarNav className='mr-auto mb-2 mb-lg-0 justify-content-end'>
                         <MDBNavbarItem>
-                            <MDBNavbarLink active aria-current='page' href='/horgolmanyaim' className="px-3 fw-bold  fst-italic" style={{color:'rgba(250,250,250,0.8)'}} >
+                            <MDBNavbarLink active aria-current='page' href=' /kistucsok/horgolmanyaim' className="px-3 fw-bold  fst-italic" style={{color:'rgba(250,250,250,0.8)'}} >
                             Horgolmányaim
                             </MDBNavbarLink>
                         </MDBNavbarItem>
@@ -51,7 +51,7 @@ const Header = () => {
                             <MDBNavbarLink active aria-current='page' href='#' className="px-3 fw-bold  fst-italic" style={{color:'rgba(250,250,250,0.8)'}}>Hírlevél</MDBNavbarLink>
                         </MDBNavbarItem>
                         <MDBNavbarItem>
-                            <MDBNavbarLink active aria-current='page' href='/rolam' className="px-3 fw-bold  fst-italic" style={{color:'rgba(250,250,250,0.8)'}}>Rólam</MDBNavbarLink>
+                            <MDBNavbarLink active aria-current='page' href='/kistucsok/rolam' className="px-3 fw-bold  fst-italic" style={{color:'rgba(250,250,250,0.8)'}}>Rólam</MDBNavbarLink>
                         </MDBNavbarItem>
                     </MDBNavbarNav>
 

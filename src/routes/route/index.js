@@ -9,6 +9,10 @@ import Footer from "../../components/Footer";
 import SocialMedia from "../../components/SocialMedia";
 import About from "../About";
 import Horgolmanyaim from "../Horgolmanyaim";
+import {
+  BrowserRouter,
+} from "react-router-dom";
+
 
 
   const AppRoutes = () => {
@@ -16,11 +20,15 @@ import Horgolmanyaim from "../Horgolmanyaim";
         <>
         <Header/>
         <SocialMedia/>
-        <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/rolam" element={<About />} />
-            <Route path="/horgolmanyaim" element={<Horgolmanyaim />} />
-        </Routes>
+        <BrowserRouter basename={process.env.PUBLIC_URL} >
+          <Routes>
+              <Route  exact index element={<Home />} /> 
+              <Route  path='/rolam' element={<About />} />
+              <Route  path='/horgolmanyaim' element={<Horgolmanyaim />} />
+              {/* <Route path="*" element={<NotFound/>}/> */}
+          </Routes>
+        </BrowserRouter>
+       
         <Footer/>
     </>
       )
