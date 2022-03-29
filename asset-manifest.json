@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/kistucsok/static/css/main.eef5d3b7.css",
-    "main.js": "/kistucsok/static/js/main.093f357c.js",
+    "main.js": "/kistucsok/static/js/main.5dbfa172.js",
     "static/media/bea.png": "/kistucsok/static/media/bea.93fa4b9c5983f8cd3eb0.png",
     "static/media/logo2.png": "/kistucsok/static/media/logo2.9094bd799fcbfcfd0b89.png",
     "index.html": "/kistucsok/index.html",
     "main.eef5d3b7.css.map": "/kistucsok/static/css/main.eef5d3b7.css.map",
-    "main.093f357c.js.map": "/kistucsok/static/js/main.093f357c.js.map"
+    "main.5dbfa172.js.map": "/kistucsok/static/js/main.5dbfa172.js.map"
   },
   "entrypoints": [
     "static/css/main.eef5d3b7.css",
-    "static/js/main.093f357c.js"
+    "static/js/main.5dbfa172.js"
   ]
 }
