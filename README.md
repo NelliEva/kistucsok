@@ -1,6 +1,6 @@
 This site is for a small Hungarian crochet business, it is still under developement. The site is deployed on netlify:
 
-https://6243093c6283a600087d84ca--sunny-chimera-dc1578.netlify.app/
+https://sunny-chimera-dc1578.netlify.app/
 
 
 # Getting Started with Create React App
