@@ -9,9 +9,9 @@ import Footer from "../../components/Footer";
 import SocialMedia from "../../components/SocialMedia";
 import About from "../About";
 import Horgolmanyaim from "../Horgolmanyaim";
-import {
-  BrowserRouter,
-} from "react-router-dom";
+// import {
+//   BrowserRouter,
+// } from "react-router-dom";
 
 
 
