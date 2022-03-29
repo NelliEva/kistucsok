@@ -22,8 +22,8 @@ import {
         <SocialMedia/>
         <BrowserRouter basename={process.env.PUBLIC_URL} >
           <Routes>
-              <Route  exact index element={<Home />} /> 
-              <Route  path='/rolam' element={<About />} />
+              <Route  exact path='/kistucsok' element={<Home />} /> 
+              <Route  path='/kistucsok/rolam' element={<About />} />
               <Route  path='/horgolmanyaim' element={<Horgolmanyaim />} />
               {/* <Route path="*" element={<NotFound/>}/> */}
           </Routes>
