@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/kistucsok/static/css/main.eef5d3b7.css",
-    "main.js": "/kistucsok/static/js/main.80e4976c.js",
-    "static/media/bea.png": "/kistucsok/static/media/bea.93fa4b9c5983f8cd3eb0.png",
-    "static/media/logo2.png": "/kistucsok/static/media/logo2.9094bd799fcbfcfd0b89.png",
-    "index.html": "/kistucsok/index.html",
-    "main.eef5d3b7.css.map": "/kistucsok/static/css/main.eef5d3b7.css.map",
-    "main.80e4976c.js.map": "/kistucsok/static/js/main.80e4976c.js.map"
+    "main.css": "/static/css/main.eef5d3b7.css",
+    "main.js": "/static/js/main.2d396b8c.js",
+    "static/media/bea.png": "/static/media/bea.93fa4b9c5983f8cd3eb0.png",
+    "static/media/logo2.png": "/static/media/logo2.9094bd799fcbfcfd0b89.png",
+    "index.html": "/index.html",
+    "main.eef5d3b7.css.map": "/static/css/main.eef5d3b7.css.map",
+    "main.2d396b8c.js.map": "/static/js/main.2d396b8c.js.map"
   },
   "entrypoints": [
     "static/css/main.eef5d3b7.css",
-    "static/js/main.80e4976c.js"
+    "static/js/main.2d396b8c.js"
   ]
 }
