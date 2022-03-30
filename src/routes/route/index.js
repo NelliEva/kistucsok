@@ -9,6 +9,7 @@ import Footer from "../../components/Footer";
 import SocialMedia from "../../components/SocialMedia";
 import About from "../About";
 import Horgolmanyaim from "../Horgolmanyaim";
+import Hirlevel from "../Hirlevel";
 
 
 
@@ -23,6 +24,7 @@ import Horgolmanyaim from "../Horgolmanyaim";
               <Route  exact path='/' element={<Home />} /> 
               <Route  path='rolam' element={<About />} />
               <Route  path='horgolmanyaim' element={<Horgolmanyaim />} />
+              <Route  path='hirlevel' element={<Hirlevel />} />
               {/* <Route path="*" element={<NotFound/>}/> */}
           </Routes>
       

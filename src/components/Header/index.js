@@ -23,7 +23,7 @@ const Header = () => {
         <MDBNavbar expand='lg' dark bgColor='dark' className="justify-content-center" >
             <MDBContainer  className="m-0">
                 {/* <MDBIcon fas icon="adjust" className="fa-3x " /> */}
-                <img alt='' src={logo} style={{width:'4rem', borderRadius:'999px'}}/>
+                <a href="/"><img alt='' src={logo} style={{width:'4rem', borderRadius:'999px'}}/></a>
                 <MDBNavbarToggler
                     type='button'
                     aria-expanded='false'
@@ -40,15 +40,15 @@ const Header = () => {
                             </MDBNavbarLink>
                         </MDBNavbarItem>
                         <MDBNavbarItem>
-                            <MDBNavbarLink active aria-current='page' href='#' className="px-3 fw-bold  fst-italic" style={{color:'rgba(250,250,250,0.8)'}}>
+                            <MDBNavbarLink active aria-current='page' href='rendelheto' className="px-3 fw-bold  fst-italic" style={{color:'rgba(250,250,250,0.8)'}}>
                             Rendelhető termékeim
                             </MDBNavbarLink>
                         </MDBNavbarItem>
                         <MDBNavbarItem>
-                            <MDBNavbarLink active aria-current='page' href='#' className="px-3 fw-bold  fst-italic" style={{color:'rgba(250,250,250,0.8)'}}>Blog</MDBNavbarLink>
+                            <MDBNavbarLink active aria-current='page' href='blog' className="px-3 fw-bold  fst-italic" style={{color:'rgba(250,250,250,0.8)'}}>Blog</MDBNavbarLink>
                         </MDBNavbarItem>
                         <MDBNavbarItem>
-                            <MDBNavbarLink active aria-current='page' href='#' className="px-3 fw-bold  fst-italic" style={{color:'rgba(250,250,250,0.8)'}}>Hírlevél</MDBNavbarLink>
+                            <MDBNavbarLink active aria-current='page' href='/hirlevel' className="px-3 fw-bold  fst-italic" style={{color:'rgba(250,250,250,0.8)'}}>Hírlevél</MDBNavbarLink>
                         </MDBNavbarItem>
                         <MDBNavbarItem>
                             <MDBNavbarLink active aria-current='page' href='/rolam' className="px-3 fw-bold  fst-italic" style={{color:'rgba(250,250,250,0.8)'}}>Rólam</MDBNavbarLink>

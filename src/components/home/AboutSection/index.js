@@ -12,7 +12,7 @@ const AboutSection = () => {
             </MDBRow>
             <MDBRow   className='d-flex justify-content-center mx-lg-5 px-lg-5'>
                 <MDBCol sm={12} md={8} lg={8} >
-                    <MDBCard style={{backgroundColor: "rgba(120, 211, 240, 0.3)"}}>
+                    <MDBCard >
                         <MDBCardBody>
                             <MDBCardTitle className='fs-5 fw-normal mb-4' style={{fontFamily: 'Caveat Brush'}}>Engedd meg, hogy pár szóban bemutatkozzak:</MDBCardTitle>
                             <MDBCardText className='fs-5 fw-light' style={{fontFamily: 'Caveat Brush'}}>
