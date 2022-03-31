@@ -30,7 +30,7 @@ const Infos = () => {
                         </MDBCard>
                         <MDBCard>
                             <MDBCardBody>
-                            + egy extraság! Mindenki, aki feliratkozik a hírlevelemre, kap egy 10%-os kedvezményre jogosító kupont, amit az általam horgolt termékek rendelése esetén vehet igénybe, a feliratkozástól számított 30 napon belül.
+                            <strong>+ egy extraság!</strong> Mindenki, aki feliratkozik a hírlevelemre, kap egy <strong>10%-os kedvezményre jogosító kupont</strong>, amit az általam horgolt termékek rendelése esetén vehet igénybe, a feliratkozástól számított 30 napon belül.
                             </MDBCardBody>
                         </MDBCard>
                     </MDBCardBody>

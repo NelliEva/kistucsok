@@ -40,12 +40,12 @@ const Header = () => {
                             </MDBNavbarLink>
                         </MDBNavbarItem>
                         <MDBNavbarItem>
-                            <MDBNavbarLink active aria-current='page' href='rendelheto' className="px-3 fw-bold  fst-italic" style={{color:'rgba(250,250,250,0.8)'}}>
+                            <MDBNavbarLink active aria-current='page' href='/rendelheto' className="px-3 fw-bold  fst-italic" style={{color:'rgba(250,250,250,0.8)'}}>
                             Rendelhető termékeim
                             </MDBNavbarLink>
                         </MDBNavbarItem>
                         <MDBNavbarItem>
-                            <MDBNavbarLink active aria-current='page' href='blog' className="px-3 fw-bold  fst-italic" style={{color:'rgba(250,250,250,0.8)'}}>Blog</MDBNavbarLink>
+                            <MDBNavbarLink active aria-current='page' href='/blog' className="px-3 fw-bold  fst-italic" style={{color:'rgba(250,250,250,0.8)'}}>Blog</MDBNavbarLink>
                         </MDBNavbarItem>
                         <MDBNavbarItem>
                             <MDBNavbarLink active aria-current='page' href='/hirlevel' className="px-3 fw-bold  fst-italic" style={{color:'rgba(250,250,250,0.8)'}}>Hírlevél</MDBNavbarLink>

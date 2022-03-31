@@ -10,6 +10,8 @@ import SocialMedia from "../../components/SocialMedia";
 import About from "../About";
 import Horgolmanyaim from "../Horgolmanyaim";
 import Hirlevel from "../Hirlevel";
+import Rendelheto from "../Rendelheto";
+import Blog from "../Blog";
 
 
 
@@ -24,6 +26,8 @@ import Hirlevel from "../Hirlevel";
               <Route  exact path='/' element={<Home />} /> 
               <Route  path='rolam' element={<About />} />
               <Route  path='horgolmanyaim' element={<Horgolmanyaim />} />
+              <Route  path='rendelheto' element={<Rendelheto />} />
+              <Route path='blog' element={<Blog/>} />
               <Route  path='hirlevel' element={<Hirlevel />} />
               {/* <Route path="*" element={<NotFound/>}/> */}
           </Routes>
