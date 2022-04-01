@@ -12,6 +12,7 @@ import Horgolmanyaim from "../Horgolmanyaim";
 import Hirlevel from "../Hirlevel";
 import Rendelheto from "../Rendelheto";
 import Blog from "../Blog";
+import Tanfolyam from "../Tanfolyam";
 
 
 
@@ -29,6 +30,7 @@ import Blog from "../Blog";
               <Route  path='rendelheto' element={<Rendelheto />} />
               <Route path='blog' element={<Blog/>} />
               <Route  path='hirlevel' element={<Hirlevel />} />
+              <Route  path='tanfolyam' element={<Tanfolyam/>} />
               {/* <Route path="*" element={<NotFound/>}/> */}
           </Routes>
       

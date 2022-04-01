@@ -13,7 +13,7 @@ const CardsSection = () => {
             title:"EGYEDI HORGOLT AJÁNDÉKOK",
             description: "Ajándékozás előtt állsz? És nincs semmi ötleted?",
             btn:"Ime a segitseg!",
-            link:''
+            link:'/rendelheto'
         },
         {
             id:"2",
@@ -29,7 +29,7 @@ const CardsSection = () => {
             title:'HORGOLO TANFOLYAM',
             description: 'Nem tudsz horgolni?Mégis szeretnél magadnak egy-egy horgolt csodát?',
             btn:'Megnezem oket',
-            link:''
+            link:'/tanfolyam'
         }
     ]
 
