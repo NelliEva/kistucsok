@@ -10,7 +10,7 @@ import {
     MDBNavbarToggler,
     MDBCollapse
   } from 'mdb-react-ui-kit';
-  import logo from './logo2.png'
+  import logo from './logo.png'
 
 const Header = () => {
 
