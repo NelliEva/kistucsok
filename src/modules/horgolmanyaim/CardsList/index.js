@@ -9,7 +9,7 @@ const CardsList = (props) => {
             <MDBRow className="mx-5 px-5">
                 {props.item.map((item) => (
                     <MDBCol lg='4' key={item.id}>
-                        <Card id={item.id} title={item.title} img={item.img} />
+                        <Card id={item.id} title={item.title} img={item.img} link={item.link}/>
                     </MDBCol>
                 ))}
             </MDBRow>
